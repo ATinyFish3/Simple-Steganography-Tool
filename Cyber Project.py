@@ -1,21 +1,10 @@
-#PLCS Project, Matthew Bream
 #Image steganography tool
-
-#For VIVA:
-
-#cd to folder
-#cd C:\Users\matth\OneDrive\Laptop Docs\Cyber Security\WM245 Programming Languages for Cyber Security\Cyber Project Folder
-#python "Cyber Project.py"
-
 #properties -> details -> bit depth 32 = 4 bands, bit depth 24 = 3 bands
-
-#colour picker in paint -> colour wheel shows different hex values
 
 #uncomment print(message) in getMessage() to show that text is/isn't encrypted + what is being found
 
 #For testing (printable ASCII chars):
 #0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c
-
 
 #use from so not importing entire libraries when only parts of libraries are needed, efficiency
 
