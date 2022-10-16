@@ -231,7 +231,9 @@ def messageDecrypt(text):#Function to decrypt encrypted message
 
 def getFile():#Seperate this from just images so expansion easy (e.g. use same function to get path to sound files, text files...)
     print("Choose an image!\n")
+    window = Tk()
     filePath = askopenfilename()#(From tkinter library)
+    window.mainloop()
     #(Choosing a file in Python with simple Dialog, 2010)
     return filePath
 
